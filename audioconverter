@@ -1,4 +1,4 @@
 import moviepy.editor
-video=moviepy.editor.VideoFileClip(r'C:\Users\ADMIN\OneDrive\Desktop\')
+video=moviepy.editor.VideoFileClip(r'C:\Users\ADMIN\OneDrive\Desktop\name.mp4')
 audio=video.audio
-audio.write_audiofile(r'C:\Users\ADMIN\OneDrive\Desktop\')
+audio.write_audiofile(r'C:\Users\ADMIN\OneDrive\Desktop\name1.mp3')
